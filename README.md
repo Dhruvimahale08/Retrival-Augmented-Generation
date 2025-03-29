@@ -57,3 +57,19 @@ EduQuest is an AI-powered learning assistant that helps students quickly find an
 - **PyTorch**: Model inference
 
 
+## 🧠 AI Architecture & Components
+
+### Core System Design
+```mermaid
+graph LR
+    A[User Query] --> B[PDF Text Extraction]
+    B --> C[Text Chunking]
+    C --> D[Vector Embeddings]
+    D --> E[FAISS Index]
+    A --> F[Query Embedding]
+    E --> G[Semantic Search]
+    F --> G
+    G --> H[Context Retrieval]
+    H --> I[LLM Answer Generation]
+    I --> J[Response Formatter]
+    J --> K[User Interface]
