@@ -1,0 +1,11 @@
+torch
+bitsandbytes
+accelerate
+pymupdf
+transformers
+sentence-transformers
+faiss-gpu
+langchain
+langchain-community
+gradio
+bcrypt
